@@ -107,4 +107,25 @@ Open your terminal and run:
 git clone https://github.com/tu-usuario/git-best-practices-elasticstack.git
 cd git-best-practices-elasticstack
 
+### 💻 Open the project in Visual Studio Code
+If you have Visual Studio Code installed (https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line), you can open the cloned repository like this:
+
+🔹 Option 1: From the terminal
+
+cd git-best-practices-elasticstack
+code .
+
+💡 If code is not recognized as a command, you may need to add it to your PATH (**Helper:** https://code.visualstudio.com/docs/configure/command-line#_launching-from-the-command-line).
+
+🔹 Option 2: From the VSCode interface
+Open Visual Studio Code.
+
+Click on File > Open Folder....
+
+Select the git-best-practices-elasticstack folder you cloned.
+
+
+
+
+
 
