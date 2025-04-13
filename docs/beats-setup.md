@@ -81,3 +81,20 @@ Verification: filebeat version
 You should see the installed version info if everything went fine.
 
 
+### Configure execution of filebeat.yml
+
+You can find the `.yml` configuration file in the `/filebeat` folder, which is set up to read logs from `/logs/simulated_logs.log`.
+
+### Execution
+First, navigate to the repository folder:
+
+``` cd ~/git-best-practices-elasticstack ```
+
+Change the file permissions for filebeat.yml:
+
+``` chmod go-w ~/git-best-practices-elasticstack/lab-01-syslog-security/filebeat/filebeat.yml```
+
+Then, launch Filebeat with the following command:
+
+``` filebeat -e -c ~/git-best-practices-elasticstack/lab-01-syslog-security/filebeat/filebeat.yml ```
+
