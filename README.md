@@ -140,13 +140,35 @@ This project is structured to separate documentation, labs, and practical tests 
 │   ├── filebeat/              # Filebeat config (input) (.yml)
 │   ├── logstash/              # Grok pipeline for log parsing
 │   ├── elasticsearch/         # Query examples, templates and documentation
-│   └── kibana/                # Kibana dashboard export & documentation
+│   ├── kibana/                # Kibana dashboard export & documentation
+│   └── generate_logs.sh       # Script executable to generate simulates logs
 │
 ├── tests/                     # Optional: challenges or exercises to reinforce learning
 │
 └── README.md                  # Main entry point and guide for using this repository
 
 ✅ This repo is meant to be both educational and practical, combining real-life inspired. 
+
+### 🧪 Running the Log Generator
+To simulate realistic cybersecurity events, a custom log generator script is included. This will produce a .log file used in the lab pipeline.
+
+### 📁 Location
+The script is located at:
+
+```/lab-01-syslog-security/scripts/generate_logs.sh```
+
+### 🚀 How to run it
+Make sure the script has execution permissions:
+
+```` chmod +x lab-01-syslog-security/scripts/generate_logs.sh````
+
+Run the script:
+
+```./lab-01-syslog-security/scripts/generate_logs.sh```
+
+This will generate a file called simulated_syslog.log under:
+
+```lab-01-syslog-security/logs/```
 
 ## ❤️ Final Message
 Thank you for visiting this project. It's crafted with care and based on real-world experience, and I hope it becomes useful in your professional or learning journey.
