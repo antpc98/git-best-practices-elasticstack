@@ -124,8 +124,34 @@ Click on File > Open Folder....
 
 Select the git-best-practices-elasticstack folder you cloned.
 
+### 📁 Repository Structure
 
+This project is structured to separate documentation, labs, and practical tests for better organization and scalability:
 
+/
+├── docs/                      # Technical docs for each component (Filebeat, Logstash, etc.)
+│   ├── beats-setup.md         # Installation & config of Beats
+│   ├── logstash-setup.md      # How to setup, configure and test Logstash pipelines
+│   ├── elasticsearch-setup.md       # How to setup, make querys and use Elasticsearch effectively
+│   └── kibana-setup.md              # Setup Kibana, make features and dashboard building
+│
+├── lab-01-syslog-security/    # Hands-on lab simulating a real-world log ingestion case
+│   ├── logs/                  # Simulated security logs
+│   ├── filebeat/              # Filebeat config (input) (.yml)
+│   ├── logstash/              # Grok pipeline for log parsing
+│   ├── elasticsearch/         # Query examples, templates and documentation
+│   └── kibana/                # Kibana dashboard export & documentation
+│
+├── tests/                     # Optional: challenges or exercises to reinforce learning
+│
+└── README.md                  # Main entry point and guide for using this repository
+
+✅ This repo is meant to be both educational and practical, combining real-life inspired. 
+
+## ❤️ Final Message
+Thank you for visiting this project. It's crafted with care and based on real-world experience, and I hope it becomes useful in your professional or learning journey.
+
+If you have any questions or suggestions for improvement, I’ll be more than happy to hear from you!
 
 
 
