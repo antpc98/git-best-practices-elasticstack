@@ -58,6 +58,8 @@ To make filebeat executable from any location in your terminal, you need to add 
 Add the directory to PATH
 Edit your shell configuration file (.bashrc, .zshrc, or .bash_profile) and add:
 
+nano ~/.bashrc
+
 export PATH="$PATH:/path/to/your/filebeat" 
 
 source ~/.bashrc  # or your respective file
