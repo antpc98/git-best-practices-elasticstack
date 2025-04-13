@@ -1,0 +1,150 @@
+abr 11 01:42:10 myhost [ERROR] sudo:   john : TTY=pts/0 ; PWD=/home/john ; USER=root ; COMMAND=/bin/apt update
+abr 11 01:45:27 myhost [WARNING] sshd[12346]: Failed password for invalid user ana from 198.51.100.42 port 22 ssh2
+abr 11 16:48:32 myhost [WARNING] sshd[12345]: Accepted password for root from 192.168.1.11 port 22 ssh2
+abr 11 13:31:23 myhost [ERROR] sshd[12346]: Failed password for invalid user ana from 10.0.0.3 port 22 ssh2
+abr 11 16:10:03 myhost [ERROR] sshd[12345]: Accepted password for guest from 145.23.12.99 port 22 ssh2
+abr 11 07:01:28 myhost [ERROR] sshd[12345]: Accepted password for javier from 192.168.1.10 port 22 ssh2
+abr 11 02:30:45 myhost [INFO] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=192.168.1.11 DST=192.168.1.10 LEN=60
+abr 11 02:36:09 myhost [WARNING] sshd[12345]: Accepted password for guest from 145.23.12.99 port 22 ssh2
+abr 11 19:41:14 myhost [INFO] sshd[12345]: Accepted password for john from 198.51.100.42 port 22 ssh2
+abr 11 01:14:01 myhost [INFO] sudo:   root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/bin/apt update
+abr 11 07:18:46 myhost [INFO] sudo:   javier : TTY=pts/0 ; PWD=/home/javier ; USER=root ; COMMAND=/bin/apt update
+abr 11 11:21:48 myhost [INFO] sudo:   john : TTY=pts/0 ; PWD=/home/john ; USER=root ; COMMAND=/bin/apt update
+abr 11 20:12:08 myhost [WARNING] sshd[12346]: Failed password for invalid user ana from 145.23.12.99 port 22 ssh2
+abr 11 02:02:18 myhost [ERROR] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=203.0.113.1 DST=192.168.1.10 LEN=60
+abr 11 08:59:10 myhost [INFO] iptables: Dropped incoming connection from 192.168.1.11
+abr 11 14:59:17 myhost [INFO] sshd[12346]: Failed password for invalid user admin from 198.51.100.42 port 22 ssh2
+abr 11 16:26:39 myhost [ERROR] iptables: Dropped incoming connection from 10.0.0.3
+abr 11 06:29:33 myhost [INFO] iptables: Dropped incoming connection from 192.168.1.10
+abr 11 13:11:33 myhost [ERROR] sshd[12346]: Failed password for invalid user guest from 192.168.1.10 port 22 ssh2
+abr 11 14:33:57 myhost [ERROR] iptables: Dropped incoming connection from 192.168.1.11
+abr 11 20:42:24 myhost [INFO] sudo:   guest : TTY=pts/0 ; PWD=/home/guest ; USER=root ; COMMAND=/bin/apt update
+abr 11 17:05:53 myhost [INFO] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=192.168.1.11 DST=192.168.1.10 LEN=60
+abr 11 19:49:48 myhost [ERROR] sshd[12346]: Failed password for invalid user javier from 10.0.0.3 port 22 ssh2
+abr 11 00:03:01 myhost [ERROR] sshd[12345]: Accepted password for javier from 145.23.12.99 port 22 ssh2
+abr 11 23:02:40 myhost [WARNING] sudo:   ana : TTY=pts/0 ; PWD=/home/ana ; USER=root ; COMMAND=/bin/apt update
+abr 11 16:43:59 myhost [ERROR] sshd[12346]: Failed password for invalid user ana from 10.0.0.3 port 22 ssh2
+abr 11 18:48:51 myhost [ERROR] sshd[12345]: Accepted password for root from 198.51.100.42 port 22 ssh2
+abr 11 03:13:22 myhost [ERROR] sshd[12346]: Failed password for invalid user guest from 192.168.1.10 port 22 ssh2
+abr 11 21:32:49 myhost [INFO] sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/apt update
+abr 11 02:27:34 myhost [ERROR] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=192.168.1.11 DST=192.168.1.10 LEN=60
+abr 11 10:37:44 myhost [WARNING] iptables: Dropped incoming connection from 203.0.113.1
+abr 11 16:57:06 myhost [WARNING] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=203.0.113.1 DST=192.168.1.10 LEN=60
+abr 11 09:29:19 myhost [WARNING] iptables: Dropped incoming connection from 192.168.1.10
+abr 11 01:27:07 myhost [INFO] iptables: Dropped incoming connection from 192.168.1.10
+abr 11 18:43:20 myhost [INFO] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=10.0.0.3 DST=192.168.1.10 LEN=60
+abr 11 00:23:03 myhost [INFO] sudo:   javier : TTY=pts/0 ; PWD=/home/javier ; USER=root ; COMMAND=/bin/apt update
+abr 11 19:32:17 myhost [WARNING] sudo:   root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/bin/apt update
+abr 11 09:37:59 myhost [INFO] sudo:   root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/bin/apt update
+abr 11 00:33:37 myhost [INFO] sshd[12346]: Failed password for invalid user ana from 145.23.12.99 port 22 ssh2
+abr 11 22:26:31 myhost [ERROR] sshd[12345]: Accepted password for ana from 192.168.1.11 port 22 ssh2
+abr 11 02:00:57 myhost [INFO] iptables: Dropped incoming connection from 192.168.1.10
+abr 11 09:43:56 myhost [ERROR] iptables: Dropped incoming connection from 10.0.0.3
+abr 11 07:52:03 myhost [ERROR] sshd[12345]: Accepted password for john from 145.23.12.99 port 22 ssh2
+abr 11 16:35:07 myhost [INFO] sshd[12345]: Accepted password for ana from 198.51.100.42 port 22 ssh2
+abr 11 11:37:38 myhost [WARNING] iptables: Dropped incoming connection from 192.168.1.10
+abr 11 12:19:00 myhost [ERROR] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=145.23.12.99 DST=192.168.1.10 LEN=60
+abr 11 15:56:35 myhost [ERROR] iptables: Dropped incoming connection from 145.23.12.99
+abr 11 06:23:12 myhost [ERROR] sshd[12346]: Failed password for invalid user guest from 198.51.100.42 port 22 ssh2
+abr 11 04:12:55 myhost [INFO] sshd[12346]: Failed password for invalid user javier from 10.0.0.3 port 22 ssh2
+abr 11 22:11:46 myhost [INFO] sshd[12345]: Accepted password for javier from 203.0.113.1 port 22 ssh2
+abr 12 14:34:11 myhost [INFO] sshd[12345]: Accepted password for root from 192.168.1.11 port 22 ssh2
+abr 12 15:54:36 myhost [WARNING] iptables: Dropped incoming connection from 192.168.1.11
+abr 12 04:39:59 myhost [INFO] sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/apt update
+abr 12 09:02:50 myhost [WARNING] iptables: Dropped incoming connection from 192.168.1.11
+abr 12 06:03:39 myhost [ERROR] sshd[12345]: Accepted password for guest from 145.23.12.99 port 22 ssh2
+abr 12 21:55:48 myhost [WARNING] sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/apt update
+abr 12 00:15:05 myhost [WARNING] sshd[12345]: Accepted password for javier from 192.168.1.11 port 22 ssh2
+abr 12 18:01:07 myhost [INFO] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=192.168.1.10 DST=192.168.1.10 LEN=60
+abr 12 10:30:37 myhost [WARNING] sshd[12346]: Failed password for invalid user guest from 198.51.100.42 port 22 ssh2
+abr 12 08:41:52 myhost [INFO] sshd[12346]: Failed password for invalid user root from 192.168.1.10 port 22 ssh2
+abr 12 22:56:28 myhost [ERROR] sudo:   javier : TTY=pts/0 ; PWD=/home/javier ; USER=root ; COMMAND=/bin/apt update
+abr 12 05:31:33 myhost [INFO] sudo:   john : TTY=pts/0 ; PWD=/home/john ; USER=root ; COMMAND=/bin/apt update
+abr 12 18:41:29 myhost [WARNING] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=192.168.1.10 DST=192.168.1.10 LEN=60
+abr 12 20:33:47 myhost [INFO] sshd[12345]: Accepted password for root from 198.51.100.42 port 22 ssh2
+abr 12 20:04:36 myhost [ERROR] sshd[12346]: Failed password for invalid user admin from 198.51.100.42 port 22 ssh2
+abr 12 03:40:39 myhost [WARNING] sshd[12345]: Accepted password for root from 145.23.12.99 port 22 ssh2
+abr 12 15:39:26 myhost [INFO] sshd[12346]: Failed password for invalid user john from 145.23.12.99 port 22 ssh2
+abr 12 03:01:58 myhost [WARNING] sshd[12346]: Failed password for invalid user john from 10.0.0.3 port 22 ssh2
+abr 12 23:58:39 myhost [ERROR] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=198.51.100.42 DST=192.168.1.10 LEN=60
+abr 12 15:47:52 myhost [WARNING] sshd[12346]: Failed password for invalid user root from 192.168.1.11 port 22 ssh2
+abr 12 01:58:42 myhost [ERROR] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=198.51.100.42 DST=192.168.1.10 LEN=60
+abr 12 03:43:33 myhost [WARNING] sshd[12346]: Failed password for invalid user john from 198.51.100.42 port 22 ssh2
+abr 12 15:54:38 myhost [INFO] sshd[12345]: Accepted password for admin from 192.168.1.10 port 22 ssh2
+abr 12 12:21:50 myhost [ERROR] iptables: Dropped incoming connection from 203.0.113.1
+abr 12 07:18:38 myhost [INFO] iptables: Dropped incoming connection from 10.0.0.3
+abr 12 15:29:13 myhost [ERROR] sudo:   guest : TTY=pts/0 ; PWD=/home/guest ; USER=root ; COMMAND=/bin/apt update
+abr 12 10:54:28 myhost [ERROR] sshd[12346]: Failed password for invalid user root from 145.23.12.99 port 22 ssh2
+abr 12 08:23:50 myhost [WARNING] iptables: Dropped incoming connection from 192.168.1.11
+abr 12 22:32:36 myhost [INFO] sudo:   javier : TTY=pts/0 ; PWD=/home/javier ; USER=root ; COMMAND=/bin/apt update
+abr 12 05:14:09 myhost [ERROR] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=10.0.0.3 DST=192.168.1.10 LEN=60
+abr 12 06:46:25 myhost [ERROR] iptables: Dropped incoming connection from 10.0.0.3
+abr 12 14:25:31 myhost [ERROR] sshd[12346]: Failed password for invalid user ana from 10.0.0.3 port 22 ssh2
+abr 12 02:55:25 myhost [WARNING] sshd[12346]: Failed password for invalid user javier from 192.168.1.10 port 22 ssh2
+abr 12 20:19:04 myhost [ERROR] sshd[12345]: Accepted password for admin from 10.0.0.3 port 22 ssh2
+abr 12 20:34:52 myhost [WARNING] sshd[12346]: Failed password for invalid user root from 192.168.1.11 port 22 ssh2
+abr 12 06:00:29 myhost [ERROR] sshd[12346]: Failed password for invalid user john from 198.51.100.42 port 22 ssh2
+abr 12 01:29:15 myhost [WARNING] sshd[12346]: Failed password for invalid user admin from 10.0.0.3 port 22 ssh2
+abr 12 17:15:16 myhost [ERROR] sshd[12346]: Failed password for invalid user root from 145.23.12.99 port 22 ssh2
+abr 12 09:36:00 myhost [ERROR] sshd[12346]: Failed password for invalid user guest from 203.0.113.1 port 22 ssh2
+abr 12 10:43:00 myhost [INFO] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=192.168.1.10 DST=192.168.1.10 LEN=60
+abr 12 17:08:01 myhost [ERROR] sudo:   root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/bin/apt update
+abr 12 22:10:51 myhost [WARNING] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=192.168.1.10 DST=192.168.1.10 LEN=60
+abr 12 00:04:55 myhost [INFO] sshd[12345]: Accepted password for guest from 10.0.0.3 port 22 ssh2
+abr 12 11:15:10 myhost [INFO] iptables: Dropped incoming connection from 192.168.1.11
+abr 12 12:04:30 myhost [WARNING] sshd[12346]: Failed password for invalid user john from 145.23.12.99 port 22 ssh2
+abr 12 07:38:46 myhost [WARNING] sudo:   ana : TTY=pts/0 ; PWD=/home/ana ; USER=root ; COMMAND=/bin/apt update
+abr 12 05:15:26 myhost [WARNING] sudo:   root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/bin/apt update
+abr 12 15:41:08 myhost [ERROR] sshd[12346]: Failed password for invalid user javier from 192.168.1.10 port 22 ssh2
+abr 12 19:00:04 myhost [INFO] sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/apt update
+abr 12 09:56:00 myhost [WARNING] sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/apt update
+abr 13 08:46:27 myhost [ERROR] sshd[12346]: Failed password for invalid user javier from 203.0.113.1 port 22 ssh2
+abr 13 04:51:33 myhost [ERROR] sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/apt update
+abr 13 10:01:04 myhost [ERROR] sshd[12346]: Failed password for invalid user guest from 145.23.12.99 port 22 ssh2
+abr 13 20:25:35 myhost [INFO] sshd[12346]: Failed password for invalid user ana from 192.168.1.10 port 22 ssh2
+abr 13 15:40:06 myhost [ERROR] iptables: Dropped incoming connection from 192.168.1.11
+abr 13 15:45:32 myhost [WARNING] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=10.0.0.3 DST=192.168.1.10 LEN=60
+abr 13 10:22:28 myhost [INFO] sshd[12345]: Accepted password for guest from 203.0.113.1 port 22 ssh2
+abr 13 00:57:55 myhost [WARNING] sudo:   ana : TTY=pts/0 ; PWD=/home/ana ; USER=root ; COMMAND=/bin/apt update
+abr 13 22:33:48 myhost [ERROR] sshd[12346]: Failed password for invalid user ana from 10.0.0.3 port 22 ssh2
+abr 13 04:54:15 myhost [INFO] iptables: Dropped incoming connection from 145.23.12.99
+abr 13 08:10:09 myhost [WARNING] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=192.168.1.11 DST=192.168.1.10 LEN=60
+abr 13 19:37:19 myhost [INFO] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=10.0.0.3 DST=192.168.1.10 LEN=60
+abr 13 10:04:32 myhost [ERROR] sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/apt update
+abr 13 06:15:57 myhost [ERROR] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=145.23.12.99 DST=192.168.1.10 LEN=60
+abr 13 16:41:57 myhost [ERROR] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=203.0.113.1 DST=192.168.1.10 LEN=60
+abr 13 18:14:30 myhost [INFO] sshd[12346]: Failed password for invalid user javier from 198.51.100.42 port 22 ssh2
+abr 13 22:12:50 myhost [INFO] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=192.168.1.11 DST=192.168.1.10 LEN=60
+abr 13 17:21:00 myhost [ERROR] sudo:   admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/apt update
+abr 13 08:18:33 myhost [INFO] sudo:   javier : TTY=pts/0 ; PWD=/home/javier ; USER=root ; COMMAND=/bin/apt update
+abr 13 20:38:49 myhost [WARNING] sshd[12346]: Failed password for invalid user root from 192.168.1.11 port 22 ssh2
+abr 13 21:18:12 myhost [INFO] sshd[12346]: Failed password for invalid user guest from 192.168.1.10 port 22 ssh2
+abr 13 08:22:00 myhost [INFO] sshd[12345]: Accepted password for john from 198.51.100.42 port 22 ssh2
+abr 13 03:56:58 myhost [ERROR] sshd[12345]: Accepted password for john from 198.51.100.42 port 22 ssh2
+abr 13 08:22:37 myhost [ERROR] iptables: Dropped incoming connection from 145.23.12.99
+abr 13 06:23:05 myhost [WARNING] sshd[12346]: Failed password for invalid user ana from 10.0.0.3 port 22 ssh2
+abr 13 07:36:54 myhost [WARNING] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=192.168.1.10 DST=192.168.1.10 LEN=60
+abr 13 23:37:56 myhost [WARNING] sudo:   javier : TTY=pts/0 ; PWD=/home/javier ; USER=root ; COMMAND=/bin/apt update
+abr 13 01:55:15 myhost [WARNING] sudo:   javier : TTY=pts/0 ; PWD=/home/javier ; USER=root ; COMMAND=/bin/apt update
+abr 13 21:00:52 myhost [INFO] sudo:   root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/bin/apt update
+abr 13 19:38:36 myhost [INFO] iptables: Dropped incoming connection from 10.0.0.3
+abr 13 23:51:19 myhost [INFO] sudo:   guest : TTY=pts/0 ; PWD=/home/guest ; USER=root ; COMMAND=/bin/apt update
+abr 13 08:38:34 myhost [INFO] iptables: Dropped incoming connection from 145.23.12.99
+abr 13 18:15:59 myhost [WARNING] sudo:   john : TTY=pts/0 ; PWD=/home/john ; USER=root ; COMMAND=/bin/apt update
+abr 13 05:39:54 myhost [ERROR] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=10.0.0.3 DST=192.168.1.10 LEN=60
+abr 13 00:27:41 myhost [WARNING] sudo:   root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/bin/apt update
+abr 13 12:00:34 myhost [INFO] sshd[12346]: Failed password for invalid user javier from 198.51.100.42 port 22 ssh2
+abr 13 00:07:15 myhost [WARNING] sshd[12345]: Accepted password for javier from 203.0.113.1 port 22 ssh2
+abr 13 06:44:02 myhost [ERROR] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=203.0.113.1 DST=192.168.1.10 LEN=60
+abr 13 02:16:39 myhost [ERROR] sshd[12346]: Failed password for invalid user ana from 192.168.1.11 port 22 ssh2
+abr 13 19:39:08 myhost [ERROR] sshd[12346]: Failed password for invalid user ana from 192.168.1.11 port 22 ssh2
+abr 13 03:02:01 myhost [WARNING] sshd[12345]: Accepted password for javier from 192.168.1.11 port 22 ssh2
+abr 13 14:37:16 myhost [INFO] sshd[12345]: Accepted password for john from 192.168.1.10 port 22 ssh2
+abr 13 00:33:38 myhost [WARNING] sudo:   javier : TTY=pts/0 ; PWD=/home/javier ; USER=root ; COMMAND=/bin/apt update
+abr 13 06:52:40 myhost [INFO] sshd[12346]: Failed password for invalid user root from 10.0.0.3 port 22 ssh2
+abr 13 13:55:02 myhost [INFO] sshd[12346]: Failed password for invalid user root from 145.23.12.99 port 22 ssh2
+abr 13 06:51:17 myhost [WARNING] iptables: Dropped incoming connection from 192.168.1.11
+abr 13 15:19:11 myhost [WARNING] kernel: [UFW BLOCK] IN=eth0 OUT= MAC=ff:ff:ff SRC=10.0.0.3 DST=192.168.1.10 LEN=60
+abr 13 01:53:46 myhost [ERROR] sshd[12346]: Failed password for invalid user john from 10.0.0.3 port 22 ssh2
+abr 13 15:58:24 myhost [ERROR] sshd[12345]: Accepted password for root from 192.168.1.10 port 22 ssh2
+abr 13 05:46:11 myhost [WARNING] iptables: Dropped incoming connection from 192.168.1.10
