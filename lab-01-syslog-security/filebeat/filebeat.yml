@@ -4,7 +4,7 @@ filebeat.inputs:
   - type: log                       # Log input type
     enabled: true                   # Enable this input
     paths:
-      - /home/aprieto/Personal/git-best-practices-elasticstack/lab-01-syslog-security/logs/simulated_syslog.log  # Path to the simulated syslog log
+      - ~/Personal/git-best-practices-elasticstack/lab-01-syslog-security/logs/simulated_syslog.log  # Path to the simulated syslog log
 
     # Custom fields to tag the log for easier identification
     fields:
